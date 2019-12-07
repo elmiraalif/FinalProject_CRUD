@@ -141,6 +141,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="LAYOUT.Master" />
+    <Content Include="Wireframes\Wireframe%28CRUD%29-Page-1.jpg" />
+    <Content Include="Wireframes\Wireframe%28CRUD%29-Page-2.jpg" />
+    <Content Include="Wireframes\Wireframe%28CRUD%29-Page-3.jpg" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="ListPages.aspx" />
     <Content Include="NewPage.aspx" />
@@ -233,7 +236,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Data\" />
-    <Folder Include="Wireframes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
