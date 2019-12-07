@@ -1,0 +1,103 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    text-align:center;
+}
+header, footer {
+    background-color: #000;
+    color: #fff;
+    width: 100vw;
+    padding: 1.5% 0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+label{
+    font-size: 1.3rem;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: #e81895;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+.col2, .col2last{
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+/*
+Each column should be 29.41% wide with a gutter space of 5.88%
+*/
+.col3 {
+    width: 29.41%;
+    float: left;
+    padding: 20px;
+    margin-right: 2.88%;
+}
+.col3last {
+    width: 29.41%;
+    float: right;
+    margin-right: 0;
+    padding: 20px 0;
+}
+.content {
+    padding: 3% 0;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.button {
+    border: none;
+    padding: 15px 30px;
+    font-size: 17px;
+    background-color: #444;
+    color: #fff;
+    margin: 30px 0;
+}
+.button-cancel {
+    border: 1px solid #444;
+    padding: 15px 30px;
+    font-size: 17px;
+    background-color: #fff;
+    color: #444;
+    margin: 30px 0;
+}
+.input-style {
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 1.5% 0;
+}
+    .input-style:focus {
+        border: none;
+        border: 2px solid #000;
+    }
+    .page-title{
+        float: left;
+    }
+    .add-button{
+        float: right;
+    }
+    .formrow{
+        clear: both;
+    }
+.page-nav {
+    padding-top: 10px;
+    display: inline-block;
+    margin: 0 20px;
+}

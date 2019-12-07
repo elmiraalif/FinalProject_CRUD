@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LAYOUT.master.cs" Inherits="n01318198_CRUD_ElmiraAlif.LAYOUT" %>
+<%@ Register Src="~/PageNav.ascx" TagName="PageNav" TagPrefix="asp"%>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="/Content/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+      <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
+    <script>tinymce.init({selector:'textarea'});</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div class="navigation">
+            Available Pages: 
+             <asp:PageNav runat="server"></asp:PageNav>
+
+        </div>
+    </header>
+    <div class="content">
+        <form id="form1" runat="server">
+            <div>
+                <asp:ContentPlaceHolder ID="body" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+    <footer>
+        &copyResource: Christine Bittle's HTTP5101_School_System Project
+    </footer>
+</body>
+</html>
